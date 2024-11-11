@@ -1,0 +1,142 @@
+[
+  {
+    "price": "350 $/міс",
+    "address": "Полєтаєва вул., 15",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "500 $/міс",
+    "address": "Пожарського вул., 18",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "650 €/міс",
+    "address": "Олександра Петрищука вул. (Суворова), 2а",
+    "square_meters": "N/A",
+    "rooms": "1 кімната",
+    "image_path": "N/A"
+  },
+  {
+    "price": "400 $/міс",
+    "address": "Щербанюка, 79",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "750 $/міс",
+    "address": "Володимира Великого, 2-В",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "210 $/міс",
+    "address": "Головна, 63-24",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "300 $/міс",
+    "address": "Пилипа Орлика вул. (Гайдара), 9",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "450 $/міс",
+    "address": "Чорновола, 7",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "600 $/міс",
+    "address": "Науки, 6",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "400 $/міс",
+    "address": "Будівельників, 28",
+    "square_meters": "N/A",
+    "rooms": "3 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "250 $/міс",
+    "address": "Головна, 189",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "270 $/міс",
+    "address": "Щербанюка, 15",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "350 $/міс",
+    "address": "Олександра Петрищука вул. (Суворова), 2 б",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "8 500 грн/міс",
+    "address": "Ярослава Осмомисла вул. (Карамзіна), 8",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "650 $/міс",
+    "address": "Щербанюка, 79",
+    "square_meters": "N/A",
+    "rooms": "1 кімната",
+    "image_path": "N/A"
+  },
+  {
+    "price": "600 $/міс",
+    "address": "Герцена вул., 91",
+    "square_meters": "N/A",
+    "rooms": "3 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "250 $/міс",
+    "address": "Полтавська вул., 1",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "1 000 $/міс",
+    "address": "Святошинська, 1",
+    "square_meters": "N/A",
+    "rooms": "4 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "300 $/міс",
+    "address": "Франка, 7",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  },
+  {
+    "price": "350 $/міс",
+    "address": "Шухевича, 9",
+    "square_meters": "N/A",
+    "rooms": "2 кімнати",
+    "image_path": "N/A"
+  }
+]

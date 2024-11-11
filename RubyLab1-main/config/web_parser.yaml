@@ -1,0 +1,10 @@
+default:
+  web_scraping:
+    start_page: https://rieltor.ua/chernovtsy/flats-rent/#12.33/48.29217/25.94552
+    product_selector: ".catalog-card"
+    product_name_selector: ".catalog-card-address"
+    product_price_selector: ".catalog-card-price-title"
+    product_description_selector: ".catalog-card-description"
+    product_image_selector: ".catalog-card-media .offer-photo-slider-slide-image"
+    product_rooms_selector: ".catalog-card-details-row span"
+    product_location_selector: ".catalog-card-region"
