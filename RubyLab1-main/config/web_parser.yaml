@@ -1,10 +1,17 @@
 default:
   web_scraping:
-    start_page: https://rieltor.ua/chernovtsy/flats-rent/#12.33/48.29217/25.94552
-    product_selector: ".catalog-card"
-    product_name_selector: ".catalog-card-address"
-    product_price_selector: ".catalog-card-price-title"
-    product_description_selector: ".catalog-card-description"
-    product_image_selector: ".catalog-card-media .offer-photo-slider-slide-image"
-    product_rooms_selector: ".catalog-card-details-row span"
-    product_location_selector: ".catalog-card-region"
+    start_page: https://data.wa.gov/resource/f6w7-q2d2.json
+    product_vincode_selector; '[col-id = "vin_1_10"] div'
+    product_selector: ".list-card"  # Adjust this to the container for each property listing if different
+    product_county_selector: '[col-id="county"] div'
+    product_city_selector: '[col-id="city"] div'
+    product_state_selector: '[col-id="state"] div'
+    product_zip_code_selector: '[col-id="zip_code"] div'
+    product_model_year_selector: '[col-id="model_year"] div'
+    product_make_selector: '[col-id="vmake"] div'
+    product_model_selector: '[col-id="model"] div'
+    product_ev_type_selector: '[col-id="ev_type"] div'
+    product_cafv_type_selector: '[col-id="cafv_type"] div'
+    product_electric_range_selector: '[col-id="electric_range"] div'
+    product_base_msrp_selector: '[col-id="base_msrp"] div'
+    product_legislative_district_selector: '[col-id="legislative_district"] div'
