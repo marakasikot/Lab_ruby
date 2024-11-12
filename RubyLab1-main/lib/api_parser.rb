@@ -37,3 +37,27 @@ class ApiParser
       raise "Failed to fetch data from API"
     end
   end
+
+  
+  def parse_data(data)
+  items = []
+
+  data["data"].each do |row|
+    puts "Raw Row Data: #{row.inspect}"  # Added this line to inspect each row
+
+    item = {
+      vin_1_10: row[8] || "N/A",    
+      country: row[9] || "Unknown",  
+      city: row[10] || "Unknown",    
+      state: row[11] || "Unknown",    
+      postal: row[12] || "Unknown"    
+    }
+    
+    items << item
+  end
+
+  items
+end
+  
+end
+
