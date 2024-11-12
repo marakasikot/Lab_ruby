@@ -35,5 +35,19 @@ class DatabaseConnector
         collection.insert_one(item.to_h) 
       end
     end
-    
+    private
+
+    def connect_to_sqlite
+      @db = SQLite3::Database.new(@config['sqlite_database']['db_file'])
+      @db.timeout = @config['sqlite_database']['timeout']
+    end
+
+    def connect_to_mongodb
+      options = {
+    database:@config['mongodb_database']['db_name'],
+  }
+
+      @db = Mongo::Client.new(@config['mongodb_database']['uri'],options)
+    end
+  end
   
