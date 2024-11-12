@@ -26,3 +26,14 @@ class DatabaseConnector
         @db.close
       end
     end
+     def save_rental_item(item)
+      if @db.is_a?(SQLite3::Database)
+        @db.execute("INSERT INTO rental_items (vin_1_10, country, city, state, postal) VALUES (?, ?, ?, ?, ?)",
+                    [item.vin_1_10, item.country, item.city, item.state, item.postal])
+      elsif @db.is_a?(Mongo::Client)
+        collection = @db[:rental_items]  
+        collection.insert_one(item.to_h) 
+      end
+    end
+    
+  
