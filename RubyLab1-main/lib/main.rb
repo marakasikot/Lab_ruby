@@ -21,3 +21,23 @@ module DomRiaParserGrigoriakMelenkoMorar
       LoggerManager.init_logger  # Now it doesn't take any arguments
 
       LoggerManager.log_processed_file("Application started")
+
+      # Create a configurator and configure actions
+      configurator = Configurator.new
+      configurator.configure(
+        run_website_parser: 1,
+        run_save_to_csv: 1,
+        run_save_to_json: 1,
+        run_save_to_yaml: 1,
+        run_save_to_mongodb: 1
+      )
+
+      cart = Cart.new(config_data['output_dir'])
+      configurator.run_actions(cart, webparsing_config, mongodb_config)
+    end
+  end
+end
+
+# Run the application
+DomRiaParserGrigoriakMelenkoMorar::Runner.run
+
